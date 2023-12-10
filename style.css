@@ -1,0 +1,49 @@
+*/
+*, *::before, *::after {
+box-sizing: border-box;
+}
+
+body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+.button {
+    display: flex;
+    justify-content: center; 
+}
+button {
+  width: 4rem;
+  height: 2rem;
+  margin: 0 2rem; 
+  border-radius: 6px;
+  border: 1px solid rgba(128, 128, 128, 0.269);
+
+}
+#addBtn:hover, #minusBtn:hover {
+    background-color: rgba(17, 120, 96, 0.92);
+    color: white;    
+}
+
+#counter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 3rem;
+    margin: 0 2rem;
+    background-color: aliceblue;
+    border-radius: 6px;
+    background-color: plum;
+    min-width: 5px;
+    max-width: 5px;
+}
+
+#resetBtn {
+    margin: 2rem;
+    background-color: rgba(132, 236, 212, 0.733);
+
+}
+#resetBtn:hover {
+        background-color: rgba(17, 120, 96, 0.92);
+        color: white;
+}
+
